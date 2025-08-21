@@ -48,9 +48,9 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.28.3",
     "@medusajs/ui-preset": "2.8.4",
-    "@types/lodash": "^4.14.195",
+    "@types/lodash": "^4.17.20",
     "@types/node": "17.0.21",
     "@types/pg": "^8.11.0",
     "@types/react": "npm:types-react@19.0.0-rc.1",
@@ -61,10 +61,10 @@
     "babel-loader": "^8.2.3",
     "eslint": "8.10.0",
     "eslint-config-next": "15.0.1",
-    "postcss": "^8.4.8",
+    "postcss": "^8.5.6",
     "prettier": "^2.8.8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3"
+    "typescript": "^5.9.2"
   },
   "packageManager": "yarn@4.4.0+sha512.91d93b445d9284e7ed52931369bc89a663414e5582d00eea45c67ddc459a2582919eece27c412d6ffd1bd0793ff35399381cb229326b961798ce4f4cc60ddfdb"
 }
