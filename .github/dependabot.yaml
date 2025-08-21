@@ -1,0 +1,134 @@
+version: 2
+updates:
+    # Backend (Medusa.js) dependencies
+    - package-ecosystem: "npm"
+      directory: "/backend"
+      schedule:
+          interval: "daily"
+          time: "16:45"
+          timezone: "Asia/Tokyo"
+      open-pull-requests-limit: 15
+      reviewers:
+          - "dependabot"
+      commit-message:
+          prefix: "chore(backend)"
+          include: "scope"
+      groups:
+          medusa:
+              patterns:
+                  - "@medusajs/*"
+              update-types:
+                  - "minor"
+                  - "patch"
+          react:
+              patterns:
+                  - "react"
+                  - "react-*"
+                  - "@types/react*"
+                  - "prop-types"
+              update-types:
+                  - "minor"
+                  - "patch"
+          mikro-orm:
+              patterns:
+                  - "@mikro-orm/*"
+              update-types:
+                  - "minor"
+                  - "patch"
+          development:
+              patterns:
+                  - "@types/*"
+                  - "@swc/*"
+                  - "jest"
+                  - "typescript"
+                  - "ts-node"
+                  - "vite"
+              update-types:
+                  - "minor"
+                  - "patch"
+          database-utilities:
+              patterns:
+                  - "pg"
+                  - "awilix"
+                  - "zod"
+              update-types:
+                  - "minor"
+                  - "patch"
+
+    # Storefront (Next.js) dependencies
+    - package-ecosystem: "npm"
+      directory: "/storefront"
+      schedule:
+          interval: "daily"
+          time: "16:45"
+          timezone: "Asia/Tokyo"
+      open-pull-requests-limit: 15
+      reviewers:
+          - "dependabot"
+      commit-message:
+          prefix: "chore(storefront)"
+          include: "scope"
+      groups:
+          medusa:
+              patterns:
+                  - "@medusajs/*"
+              update-types:
+                  - "minor"
+                  - "patch"
+          react:
+              patterns:
+                  - "react"
+                  - "react-*"
+                  - "@types/react*"
+              update-types:
+                  - "minor"
+                  - "patch"
+          next:
+              patterns:
+                  - "next"
+                  - "eslint-config-next"
+              update-types:
+                  - "minor"
+                  - "patch"
+          ui-libraries:
+              patterns:
+                  - "@headlessui/*"
+                  - "@radix-ui/*"
+                  - "@hookform/*"
+              update-types:
+                  - "minor"
+                  - "patch"
+          payment-providers:
+              patterns:
+                  - "@paypal/*"
+                  - "@stripe/*"
+              update-types:
+                  - "minor"
+                  - "patch"
+          development:
+              patterns:
+                  - "@types/*"
+                  - "eslint*"
+                  - "typescript"
+                  - "tailwindcss"
+                  - "autoprefixer"
+                  - "postcss"
+                  - "@babel/*"
+                  - "babel-*"
+                  - "prettier"
+              update-types:
+                  - "minor"
+                  - "patch"
+          utilities:
+              patterns:
+                  - "lodash"
+                  - "geist"
+                  - "pg"
+                  - "zod"
+                  - "@vercel/*"
+                  - "server-only"
+                  - "webpack"
+                  - "ansi-colors"
+              update-types:
+                  - "minor"
+                  - "patch"
