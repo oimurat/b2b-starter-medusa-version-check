@@ -913,12 +913,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@paypal/paypal-js@npm:^5.0.6, @paypal/paypal-js@npm:^5.1.6":
+"@paypal/paypal-js@npm:^5.1.6":
   version: 5.1.6
   resolution: "@paypal/paypal-js@npm:5.1.6"
   dependencies:
     promise-polyfill: "npm:^8.3.0"
   checksum: 10/24d630e06be220dc75e421a15253f241183da5bd6cc4884de5f257a2f0d370c4616292dc4fe9673a284fa708472cab4877c1399dcff920a8985741624da59cca
+  languageName: node
+  linkType: hard
+
+"@paypal/paypal-js@npm:^8.3.1":
+  version: 8.3.1
+  resolution: "@paypal/paypal-js@npm:8.3.1"
+  dependencies:
+    promise-polyfill: "npm:^8.3.0"
+  checksum: 10/b25f9378649b998ac9623c998393a3996276c927ef03fd21a87bc1ec1c48c5a3fa77d168b8f046e2810a6c8fe2f70b46003aefb72f76d4728bbb2d96d2ea1d60
   languageName: node
   linkType: hard
 
@@ -7651,7 +7660,7 @@ __metadata:
     "@medusajs/types": "npm:2.8.4"
     "@medusajs/ui": "npm:4.0.14"
     "@medusajs/ui-preset": "npm:2.8.4"
-    "@paypal/paypal-js": "npm:^5.0.6"
+    "@paypal/paypal-js": "npm:^8.3.1"
     "@paypal/react-paypal-js": "npm:^7.8.1"
     "@radix-ui/react-dialog": "npm:^1.1.1"
     "@stripe/react-stripe-js": "npm:^1.7.2"
@@ -10257,7 +10266,7 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.5.3#optional!builtin<compat/typescript>":
   version: 5.8.3
-  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=cef18b"
+  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=74658d"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
