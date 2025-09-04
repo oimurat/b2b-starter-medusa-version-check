@@ -4016,16 +4016,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stripe/react-stripe-js@npm:^1.7.2":
-  version: 1.16.5
-  resolution: "@stripe/react-stripe-js@npm:1.16.5"
+"@stripe/react-stripe-js@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@stripe/react-stripe-js@npm:4.0.0"
   dependencies:
     prop-types: "npm:^15.7.2"
   peerDependencies:
-    "@stripe/stripe-js": ^1.44.1
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10/b6413e1122fac91834919cea2683c31a9ee2525ce90b78b86b0337e8f506aeff5049fb1fd097019b34e70d4bc6657b98ae40c352e433d01ec47d8ceae459dd15
+    "@stripe/stripe-js": ">=1.44.1 <8.0.0"
+    react: ">=16.8.0 <20.0.0"
+    react-dom: ">=16.8.0 <20.0.0"
+  checksum: 10/10177352133eb267e1eedd13981f97361cc4de231efe803f4fe913261da4e2b707160439bc409b28443cbfebf9fe146fc587f2785502aaa2050bb6b5236cb61d
   languageName: node
   linkType: hard
 
@@ -7654,7 +7654,7 @@ __metadata:
     "@paypal/paypal-js": "npm:^5.0.6"
     "@paypal/react-paypal-js": "npm:^7.8.1"
     "@radix-ui/react-dialog": "npm:^1.1.1"
-    "@stripe/react-stripe-js": "npm:^1.7.2"
+    "@stripe/react-stripe-js": "npm:^4.0.0"
     "@stripe/stripe-js": "npm:^1.29.0"
     "@types/lodash": "npm:^4.14.195"
     "@types/node": "npm:17.0.21"
@@ -10257,7 +10257,7 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.5.3#optional!builtin<compat/typescript>":
   version: 5.8.3
-  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=cef18b"
+  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=74658d"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
