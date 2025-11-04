@@ -4029,10 +4029,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stripe/stripe-js@npm:^1.29.0":
-  version: 1.54.2
-  resolution: "@stripe/stripe-js@npm:1.54.2"
-  checksum: 10/52d6e814dd6e4979a050d9c06d8aa463f583138bb6b1aaf6e8856e92dcfa3ce7fd2231ce86882b44ffd0299b8e1d93f6c6dd9d1461b957ef2a6d548a801e506f
+"@stripe/stripe-js@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "@stripe/stripe-js@npm:8.3.0"
+  checksum: 10/035eb71d2e6cf6cd2debe3968d4b4d73602d64b3939454e2599b360da02693a6d5d9e57c873a43e9675c3ab512ff0b4837f72c70c733d1241dfb74bc516c5416
   languageName: node
   linkType: hard
 
@@ -7655,7 +7655,7 @@ __metadata:
     "@paypal/react-paypal-js": "npm:^7.8.1"
     "@radix-ui/react-dialog": "npm:^1.1.1"
     "@stripe/react-stripe-js": "npm:^1.7.2"
-    "@stripe/stripe-js": "npm:^1.29.0"
+    "@stripe/stripe-js": "npm:^8.3.0"
     "@types/lodash": "npm:^4.14.195"
     "@types/node": "npm:17.0.21"
     "@types/pg": "npm:^8.11.0"
@@ -10257,7 +10257,7 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.5.3#optional!builtin<compat/typescript>":
   version: 5.8.3
-  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=cef18b"
+  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=74658d"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
